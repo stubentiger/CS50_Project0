@@ -1,0 +1,96 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* The images are pasted in their original sizes,
+need to make the images fit the container */
+img {
+  height: 100%;
+  width: 100%;
+}
+
+h2, h1 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+h1 {
+  margin-top: 15px;
+}
+
+h2 {
+  font-size: 22px;
+  color: #00008B;
+}
+
+.charac-names {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#strong-block {
+  display: block;
+}
+
+#Wrap-image {
+  float: left;
+  width: 220px;
+  margin-right: 10px;
+}
+
+.logo {
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.col-3 > div {
+  text-align: center;
+}
+
+.col-3 > div > img {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 7px;
+}
+
+table, th, td {
+  border: 2px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+table th {
+  background-color: #dce7fa;
+  padding: 2px;
+  text-align: center;
+}
+table td {
+  text-align: center;
+  padding: 2px;
+}
+
+a[role] {
+  margin-top: 15px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 15px;
+}
+footer p {
+  color: #778899;
+}
+
+@media (max-width: 50rem) {
+  table th, table td {
+    font-size: 12px;
+  }
+  table th {
+    background-color: #e6ffe6;
+  }
+}
+
+/*# sourceMappingURL=css_styles.css.map */

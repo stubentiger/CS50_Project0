@@ -1,0 +1,102 @@
+body {
+  font-family:'Open Sans', sans-serif;
+}
+
+$headers-font-weight: bold;
+$bottom-margin: 15px;
+
+/* The images are pasted in their original sizes,
+need to make the images fit the container */
+img {
+  height: 100%;
+  width: 100%;
+}
+
+%headers-style{
+  font-weight: $headers-font-weight;
+  margin-bottom: $bottom-margin;
+}
+
+h1 {
+  @extend %headers-style;
+  margin-top: 15px;
+}
+
+h2 {
+  @extend %headers-style;
+  font-size: 22px;
+  color: #00008B;
+}
+
+.charac-names{
+  font-weight: $headers-font-weight;
+  font-size: 15px;
+}
+
+#strong-block{
+  display: block;
+}
+
+#Wrap-image{
+  float: left;
+  width: 220px;
+  margin-right: 10px;
+}
+
+.logo {
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.col-3 > div {
+  text-align: center;
+}
+
+.col-3 > div > img {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 7px;
+}
+
+table, th, td{
+  border: 2px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  th {
+    background-color: #dce7fa;
+    padding: 2px;
+    text-align: center;
+  }
+  td{
+    text-align: center;
+    padding: 2px;
+  }
+}
+
+a[role]{
+  margin-top: 15px;
+}
+
+footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 15px;
+
+  p {
+    color: #778899;
+  }
+}
+
+@media (max-width: 50rem) {
+  table {
+    th, td{
+      font-size: 12px;
+    }
+    th {
+      background-color: #e6ffe6; 
+    }
+  }
+}
