@@ -52,12 +52,8 @@ p {
   max-width: 360px;
 }
 
-.flex-column a {
-  margin: 5px;
-}
-
-.collage-col-mr {
-  margin-top: 30px;
+.flex-column img {
+  margin-top: 5px;
 }
 
 .col-3 > div {
