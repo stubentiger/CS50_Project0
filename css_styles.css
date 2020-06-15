@@ -44,8 +44,8 @@ p {
 
 .logo {
   margin-right: 5px;
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
 }
 
 .flex-column {
@@ -56,6 +56,10 @@ p {
   margin-top: 5px;
 }
 
+.img-h {
+  max-height: 320px;
+}
+
 .col-3 > div {
   text-align: center;
 }
@@ -64,10 +68,6 @@ p {
   height: 50px;
   width: 50px;
   margin-bottom: 7px;
-}
-
-table, th, td {
-  border: 2px solid black;
 }
 
 table {
