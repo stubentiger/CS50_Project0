@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* The images are pasted in their original sizes,
@@ -23,6 +23,10 @@ h2 {
   color: #00008B;
 }
 
+p {
+  font-size: 20px;
+}
+
 .charac-names {
   font-weight: bold;
   font-size: 15px;
@@ -42,6 +46,18 @@ h2 {
   margin-right: 5px;
   height: 20px;
   width: 20px;
+}
+
+.flex-column {
+  max-width: 360px;
+}
+
+.flex-column a {
+  margin: 5px;
+}
+
+.collage-col-mr {
+  margin-top: 30px;
 }
 
 .col-3 > div {
@@ -76,9 +92,9 @@ a[role] {
 }
 
 footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
 }
 footer p {
   color: #778899;
