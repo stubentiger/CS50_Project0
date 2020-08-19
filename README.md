@@ -1,10 +1,13 @@
-# Project 0
 
-#Web Programming with Python and JavaScript
+#Was done within Harvard CS50 "Web Programming with Python and JavaScript".
 
-The project is a small website about my cats and their breed.
+It is a pet project aimed at demonstrating the usage of html and SCSS.
 
-Files stucture:
+#description
+
+The project is a small static website about my cats and their breed.
+
+Files structure:
 -> Home.html:
   It is the main page giving brief information about the cats along with their photos. The main page offers you to obtain more info about the breed via the button. An alternative way to view the breed page and cats' pages is to navigate there via the navigation bar.
 
