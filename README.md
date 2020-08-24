@@ -3,6 +3,8 @@
 
 It is a pet project aimed at demonstrating the usage of html and SCSS.
 
+It is published at https://stubentiger.github.io/CS50_Project0/
+
 #description
 
 The project is a small static website about my cats and their breed.
