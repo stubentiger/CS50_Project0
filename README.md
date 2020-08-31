@@ -1,3 +1,4 @@
+# Cats website
 
 Was done according to the task from Harvard CS50 "Web Programming with Python and JavaScript" course.
 
